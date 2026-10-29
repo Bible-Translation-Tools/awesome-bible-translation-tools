@@ -50,7 +50,13 @@
 - Sefer is the full app for revising and editing Bibles with full USFM support. It is built with Tauri, so it supports iOS, Android, and desktop, plus web (via a separate build).
 - **[Sefer's USFM editor](https://github.com/Bible-Translation-Tools/Sefer/tree/master/packages)**: The JS editor for Sefer, as its own TS package. Its only dependencies are CodeMirror and Scripture Kitchen (for the parser). A [playground](https://github.com/Bible-Translation-Tools/Sefer/tree/master/packages/editor/bench) in this repo shows how it handles the WYSIWYG aspects of editing.
 
-#### BTT Writer
+### BTT Writer
+
+A tool to translate the Bible into your own language.
+
+* [BTT Writer Android](https://github.com/Bible-Translation-Tools/BTT-Writer-Android) - The original BTT Writer app for Android phones and tablets. It is a native Android app written mostly in Kotlin, with some older Java code, and it uses Hilt for dependency injection.
+* [BTT Writer Desktop](https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop) - The desktop version of BTT Writer for Windows, macOS, and Linux. It is an Electron app written in JavaScript, with a user interface built from Polymer web components.
+* [BTT Writer Multiplatform](https://github.com/Bible-Translation-Tools/BTT-Writer) - A complete rewrite of BTT Writer Android as a Kotlin Multiplatform (KMP) application, with a single shared codebase for both Android and desktop. Its user interface is built with Compose Multiplatform.
 
 #### Read on Web / Live Reader
 
