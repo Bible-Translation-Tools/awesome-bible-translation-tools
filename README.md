@@ -50,7 +50,7 @@
 - Sefer is the full app for revising and editing Bibles with full USFM support. It is built with Tauri, so it supports iOS, Android, and desktop, plus web (via a separate build).
 - **[Sefer's USFM editor](https://github.com/Bible-Translation-Tools/Sefer/tree/master/packages)**: The JS editor for Sefer, as its own TS package. Its only dependencies are CodeMirror and Scripture Kitchen (for the parser). A [playground](https://github.com/Bible-Translation-Tools/Sefer/tree/master/packages/editor/bench) in this repo shows how it handles the WYSIWYG aspects of editing.
 
-### BTT Writer
+#### BTT Writer
 
 A tool to translate the Bible into your own language.
 
