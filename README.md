@@ -52,6 +52,12 @@
 
 #### BTT Writer
 
+A tool to translate the Bible into your own language.
+
+* [BTT Writer Android](https://github.com/Bible-Translation-Tools/BTT-Writer-Android) - The original BTT Writer app for Android phones and tablets. It is a native Android app written mostly in Kotlin, with some older Java code, and it uses Hilt for dependency injection.
+* [BTT Writer Desktop](https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop) - The desktop version of BTT Writer for Windows, macOS, and Linux. It is an Electron app written in JavaScript, with a user interface built from Polymer web components.
+* [BTT Writer Multiplatform](https://github.com/Bible-Translation-Tools/BTT-Writer) - A complete rewrite of BTT Writer Android as a Kotlin Multiplatform (KMP) application, with a single shared codebase for both Android and desktop. Its user interface is built with Compose Multiplatform.
+
 #### Read on Web / Live Reader
 
 - Old. Reads pregenerated USFM HTML from SRP. Recommended to replace with on-demand rendering from Scripture Kitchen.
